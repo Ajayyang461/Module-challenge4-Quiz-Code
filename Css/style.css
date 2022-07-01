@@ -1,0 +1,62 @@
+/* RESETS */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+/* GLOBAL CLASSES */
+html,
+body {
+  height: 100px;
+  background-color: darkgrey;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+  font-size: 12px;
+}
+.main-header h1 {
+  color: purple;
+}
+
+.main-header nav {
+  display: flex;
+  padding-left: 10px;
+  font-size: 25px;
+  color: purple;
+}
+.main-header nav time {
+  color: purple;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 150px;
+}
+
+.section-container {
+  text-align: center;
+  margin-top: 25px;
+}
+.section-container p {
+  font-size: 30px;
+  padding: 35px;
+  margin-bottom: 50px;
+}
+.button-container {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.button-container button.startBtn {
+  padding: 25px;
+  color: white;
+  background-color: purple;
+  border-radius: 9px;
+  padding-left: 35px;
+  padding-right: 35px;
+  font-size: 25px;
+}
